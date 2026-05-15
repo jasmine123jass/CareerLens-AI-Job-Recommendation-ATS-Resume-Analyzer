@@ -1,9 +1,8 @@
 # CareerLens-AI-Job-Recommendation-ATS-Resume-Analyzer
-CareerLens is an AI-powered career assistance platform designed to help students, freshers, and job seekers improve their resumes, analyze ATS compatibility, and receive intelligent job recommendations based on their skills and experience.
-Project Statement
+
+# Project Statement
 
 CareerLens is an AI-powered career assistance platform designed to help students, freshers, and job seekers improve their resumes, analyze ATS compatibility, and receive intelligent job recommendations based on their skills and experience.
-
 Traditional job portals only display jobs, but they do not analyze whether a candidate’s resume is suitable for ATS systems or whether the candidate’s skills match industry requirements. CareerLens solves this problem using NLP and machine learning techniques.
 
 The system allows users to:
@@ -20,14 +19,14 @@ Manage user profiles professionally
 
 The platform combines modern frontend technologies, backend APIs, machine learning models, and NLP techniques to create a smart AI-driven recruitment assistance system.
 
-Main Objectives
+# Main Objectives
 Build an intelligent ATS resume analyzer.
 Provide AI-based job recommendations.
 Automatically extract skills from resumes.
 Improve candidate-job matching.
 Help users create ATS-friendly resumes.
 Build a professional career guidance platform.
-Problem Statement
+# Problem Statement
 
 Many candidates apply for jobs without knowing:
 
@@ -45,7 +44,7 @@ Do not match role-specific skills
 
 CareerLens helps solve this issue using AI and NLP.
 
-Tech Stack Used
+# Tech Stack Used
 Frontend
 React.js
 Vite
@@ -82,11 +81,12 @@ fastapi
 uvicorn
 python-jose
 passlib
-System Architecture
+
+# System Architecture
 
 The project consists of three major modules:
 
-Frontend Layer
+# Frontend Layer
 Backend API Layer
 NLP/ML Processing Layer
 Frontend Layer
@@ -113,7 +113,7 @@ Job Match Page
 Saved Jobs
 Profile Section
 Resume Builder
-Backend Layer
+# Backend Layer
 
 The backend is built using FastAPI.
 
@@ -134,7 +134,7 @@ Important Routes:
 /jobs
 /profile
 /editor
-Database Layer
+# Database Layer
 
 MongoDB stores:
 
@@ -152,7 +152,7 @@ resumes
 jobs
 saved_jobs
 applied_jobs
-NLP Techniques Used
+# NLP Techniques Used
 1. Resume Parsing
 
 The uploaded PDF/DOCX resume is converted into raw text using:
@@ -230,7 +230,7 @@ Used for:
 
 Job ranking
 Match percentage calculation
-ATS Score Logic
+# ATS Score Logic
 
 The ATS score is calculated based on:
 
@@ -256,7 +256,7 @@ Add role-specific keywords
 Improve project descriptions
 Include certifications
 Add measurable achievements
-Job Recommendation Workflow
+# Job Recommendation Workflow
 
 Step 1: User uploads resume.
 
@@ -270,7 +270,7 @@ Step 5: Cosine similarity calculates match percentage.
 
 Step 6: Top matching jobs are displayed.
 
-Displayed Information:
+# Displayed Information:
 
 Job title
 Company name
@@ -414,7 +414,7 @@ Voice-based resume analysis
 AI cover letter generation
 Multi-language resume support
 Cloud deployment
-Conclusion
+# Conclusion
 
 CareerLens is a complete AI-powered recruitment assistance platform that combines:
 
